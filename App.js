@@ -54,7 +54,7 @@ class App extends Component {
             source={require("./assets/icon-flat.png")}
           />
           <Text style={{ fontSize: 24, padding: 20, textAlign: "center" }}>
-            Vos recommendations
+            Vos recommandations
           </Text>
           <FlatList
             style={{ maxHeight: 200 }}
@@ -75,7 +75,7 @@ class App extends Component {
           source={require("./assets/icon-flat.png")}
         />
         <Text style={{ fontSize: 18, padding: 20, textAlign: "center" }}>
-          Choisissez votre profil afin de recevoir des recommendations de
+          Choisissez votre profil afin de recevoir des recommandations de
           lecture personnalisées
         </Text>
         <Picker
